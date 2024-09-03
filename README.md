@@ -71,3 +71,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+## Conectarse a HOOKDESK
+
+1. Logearse `hookdeck login`
+2. Conectarse `hookdeck listen 3003 stripe-to-localhost`
