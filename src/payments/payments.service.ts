@@ -71,7 +71,7 @@ export class PaymentsService {
         const payload = {
           stripePaymentId: chargeSucceeded.id,
           orderId: chargeSucceeded.metadata.orderId,
-          receipUrl: chargeSucceeded.receipt_url,
+          receiptUrl: chargeSucceeded.receipt_url,
         };
 
         // this.logger.log({ payload });
